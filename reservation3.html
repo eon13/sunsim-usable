@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>3번 테이블 예약</title>
+        <style>
+            table{
+                margin-top: 150px;
+                margin-left: 140px; 
+            }
+
+            button{
+                margin-left: 225px;
+                background-color: rgba(37, 37, 251, 0.9);
+                color: white;
+                width: 60px;
+                height: 25px;
+                border: none;
+                border-radius: 25px;
+                box-shadow: 0 1px 10px rgba(37, 37, 251, 0.3);
+            }
+
+            button:focus{
+                outline:0;
+            }
+
+            button:hover{
+                background-color: rgba(37, 37, 251, 0.7);
+                cursor: pointer;
+                box-shadow: 0 1px 5px rgba(37, 37, 251, 0.3);
+                transition: 0.3s;
+            }
+
+            #class{
+                width: 54px;
+            }
+
+            .number{
+                width: 30px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td>학년</td>
+                <td>
+                    <select name="학년" id="grade">
+                        <option value="choose">선택</option>
+                        <option value="1grade">1학년</option>
+                        <option value="2grade">2학년</option>
+                        <option value="3grade">3학년</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>반</td>
+                <td>
+                    <select name="반" id="class">
+                        <option value="choose">선택</option>
+                        <option value="1class">1반</option>
+                        <option value="2class">2반</option>
+                        <option value="3class">3반</option>
+                        <option value="4class">4반</option>
+                        <option value="5class">5반</option>
+                        <option value="c6lass">6반</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>번호</td>
+                <td>
+                    <input type="text" class="number">번
+                </td>
+            </tr>
+            <tr>
+                <td>이름</td>
+                <td><input type="text" class="name"></td>
+            </tr>
+        </table>
+        <br><br>
+        <button>등록</button>
+    </body>
+</html>

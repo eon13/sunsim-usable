@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+}
+header{
+    height: 80px;
+    padding: 0 20px 0 20px;
+    color: white;
+    background-color: rgba(21, 21, 206, 0.825);
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header>h2>a{
+    color: white;
+    text-decoration: none;
+}
+
+header>div>nav{
+    display: inline-block;
+    height: 80px;
+}
+header>div>nav>a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    height: 30px;
+    width: 120px;
+    padding: 25px 10px 25px 10px;
+    font-size: 18px;  
+    text-align: center;
+    
+}
+header>div>nav>a:focus{
+    outline: 0;
+}
+header>div>nav>a:hover{
+    background-color: white;
+    color: rgba(15, 15, 236, 0.825);
+
+}
+.rectangle{
+    height: 70px;
+    width: 200px;
+    background-color: #d9d9d9;
+    margin: 30px;
+    border: none;
+    text-align: center;
+    outline: 0;
+}
+form{
+    margin-left: 15%;
+    margin-right: 15%;
+    position: absolute;
+}
+#logo{
+    height: 50px;
+    width: 90px;
+    background-color: #d9d9d9;
+    margin-left: 5px;
+    border: none;
+    text-align: center;
+}
+.search{
+    margin-left: 80%;
+    outline: 0;
+}
+h1{
+    font-size: 35px;
+    text-align: center;
+}
+
+.search:hover{
+    outline: 0;
+    cursor: auto;
+}
+.rectangle:hover{
+    outline: 0;
+    cursor: pointer;
+}
+#grid_basic{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+}
+table{
+    margin-top: 30px;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.811);
+    border-bottom: 5px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-block: 20px;
+    font-size: 18px;
+}
+.leftbar{
+    padding: 10px 0 30px 20px;
+    background-color: rgba(21, 21, 206, 0.825);
+    color: white;
+    border-bottom-right-radius: 30px;
+    height: 600px;
+    font-weight: 500;
+    list-style: none;
+}
+li{
+    padding: 20px 0 10px 0;
+    border-bottom: none;
+}
+a{
+    text-decoration: none;
+    
+}
+
+.leftbar:focus{
+    outline: none;
+}
+.leftbar:hover{
+    background-color: white;
+    color: black;
+    
+}
+li>a:hover{
+    cursor: pointer;
+    color: rgba(21, 21, 206, 0.825);
+    font-weight: 700;
+    border-bottom: 3px solid rgba(21, 21, 206, 0.825);
+}
